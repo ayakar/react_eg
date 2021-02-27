@@ -1,0 +1,12 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+iframe{
+    display: block;
+    max-width: 100%;
+}
