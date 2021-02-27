@@ -3,7 +3,7 @@ import {makeStyles} from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import Textfield from "@material-ui/core/TextField";
+import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import React, {useState} from "react";
 import {useRouter} from "next/router";
@@ -27,7 +27,7 @@ const SearchField = props => {
     return (
         <>
             <Box mx={2} my={{xs:2, sm:2}}>
-                <Textfield variant="outlined" onChange={(e) => setSearchVal(e.target.value)} value={searchVal}/>
+                <TextField variant="outlined" onChange={(e) => setSearchVal(e.target.value)} value={searchVal}/>
             </Box>
             <Box>
                 <Button style={{width: 'initial'}} onClick={submitSearchHandler} color={"primary"}
