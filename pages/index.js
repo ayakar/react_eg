@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
 
-import Location from "../components/location";
+import Location from "../components/Location";
 import Contact from "../components/Contact";
 import ProductCarousel from "../components/ProductCarousel";
 
